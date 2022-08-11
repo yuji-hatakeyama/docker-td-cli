@@ -1,6 +1,19 @@
-# docker-td-client
+[![dockerhub-latest](https://github.com/yuji-hatakeyama/docker-td-cli/actions/workflows/dockerhub-latest.yml/badge.svg)](https://github.com/yuji-hatakeyama/docker-td-cli/actions/workflows/dockerhub-latest.yml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hatake/docker-td-cli.svg)](https://hub.docker.com/repository/docker/hatake/docker-td-cli)
 
-## Authenticate
+# Docker TD CLI
+
+## URL
+
+GitHub
+https://github.com/yuji-hatakeyama/docker-td-cli
+
+Docker Hub
+https://hub.docker.com/repository/docker/hatake/docker-td-cli
+
+## Usage
+
+### Authenticate
 
 ```
 $ docker run -v $PWD/.td:/root/.td -it hatake/docker-td-cli account
@@ -10,7 +23,7 @@ $ docker run -v $PWD/.td:/root/.td -it hatake/docker-td-cli account
 Authenticated successfully.
 ```
 
-## Execute command
+### Execute command
 
 Example of `$ td db:list`
 
